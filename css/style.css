@@ -1764,8 +1764,8 @@ Content
 }
 
 .entry-footer ul li {
-    display: inline;
-    margin: 0 0 0 10px;
+    // display: inline;
+    margin: 0;
 }
 
 .entry-footer i {
