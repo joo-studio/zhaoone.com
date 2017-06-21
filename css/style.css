@@ -1,12 +1,12 @@
 /*
-Theme Name: 	Scopic
-Theme URI: 		http://herothemes.com/
-Author: 		Chris Mooney (Hero Themes)
-Author URI: 	http://herothemes.com
-Description: 	<strong>For updates:</strong> <a href="http://twitter.com/herothemes">Follow me on twitter</a> &ndash; <a href="http://www.facebook.com/herothemes">Join the Facebook Group</a>
-Version: 		1.0.9
-License: 		ThemeForest Regular License
-License URI: 	http://themeforest.net/licenses/regular
+Theme Name:     Scopic
+Theme URI:      http://herothemes.com/
+Author:         Chris Mooney (Hero Themes)
+Author URI:     http://herothemes.com
+Description:    <strong>For updates:</strong> <a href="http://twitter.com/herothemes">Follow me on twitter</a> &ndash; <a href="http://www.facebook.com/herothemes">Join the Facebook Group</a>
+Version:        1.0.9
+License:        ThemeForest Regular License
+License URI:    http://themeforest.net/licenses/regular
 */
 
 
@@ -663,7 +663,7 @@ Core Classes
 ------------------------------------------------------------------------------*/
 
 
-/*	Clearfix */
+/*  Clearfix */
 
 .clearfix {
     *zoom: 1;
@@ -756,7 +756,7 @@ video {
 }
 
 
-/*	Responsive Video Container  */
+/*  Responsive Video Container  */
 
 .video-container {
     position: relative;
@@ -912,7 +912,7 @@ img.aligncenter {
 }
 
 
-/*	Sticky Post */
+/*  Sticky Post */
 
 .sticky {}
 
@@ -2655,7 +2655,7 @@ Widget Styles
 }
 
 
-/*	List Widget Styling */
+/*  List Widget Styling */
 
 .widget_recent_entries li,
 .widget_recent_comments li,
@@ -2702,7 +2702,7 @@ Widget Styles
 }
 
 
-/*	Search Widget */
+/*  Search Widget */
 
 #sidebar .widget_search {}
 
@@ -2811,7 +2811,7 @@ Widget Styles
 }
 
 
-/*	Posts Widget */
+/*  Posts Widget */
 
 .ht_posts_widget li {
     margin: 0 0 10px !important;
@@ -2880,7 +2880,7 @@ Widget Styles
 }
 
 
-/*	Flickr Widget */
+/*  Flickr Widget */
 
 .ht_flickr_widget .flickr_badge_image {
     float: left;
@@ -3288,13 +3288,18 @@ Responsive CSS
         overflow-x: hidden;
     }
     /* Header */
+    #header-bottom {
+        padding: 0;
+        min-height: 5px;
+    }
     #header-bottom .page-title {
         margin: 0;
     }
     #site-header .avatar {
-        width: 80px;
-        height: 80px;
-        left: 43px;
+        display: none;
+        // width: 80px;
+        // height: 80px;
+        // left: 43px;
     }
     /* Timeline */
     #timeline:before {
